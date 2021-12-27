@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="hero-container">
+      <div class="circle-container">
+        <div class="circle">
+          <button class="btn">
+            <i class="fas fa-snowboarding fa-rotate-270"></i>
+          </button>
+          <button class="btn">
+            <i class="fas fa-snowboarding"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- For tablet and mobile nav -->
+      <input type="checkbox" id="active" />
+      <label for="active" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <div class="menu">
+        <ul class="list nav__list">
+          <li class="list__item">
+            <a href="https://www.linkedin.com/in/paulo-mateljan-36463a224/" class="list__link">About Me</a>
+          </li>
+          <li class="list__item">
+            <a href="https://github.com/PauloZD" class="list__link">Github</a>
+          </li>
+          <li class="list__item">
+            <a href="https://www.facebook.com/paulo.mateljan1/" class="list__link">Facebook</a>
+          </li>
+          <li class="list__item">
+            <a href="mailto:pmatelj@gmail.com" class="list__link">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+
+      <nav>
+        <ul class="list nav__list">
+          <li class="list__item">
+            <a href="https://www.linkedin.com/in/paulo-mateljan-36463a224/" class="list__link"
+              >About Me</a
+            >
+          </li>
+          <li class="list__item">
+            <a href="https://github.com/PauloZD" class="list__link"
+              >Github</a
+            >
+          </li>
+          <li class="list__item">
+            <a href="https://www.facebook.com/paulo.mateljan1/" class="list__link"
+              >Facebook</a
+            >
+          </li>
+          <li class="list__item">
+            <a href="mailto:pmatelj@gmail.com" class="list__link"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <main class="grid">
+        <div class="hero__content">
+          <h1 class="hero__title">My name is Paulo Mateljan</h1>
+          <p class="hero__subtitle">Junior Frontend Dev & Chef</p>
+          <a href="mailto:pmatelj@gmail.com" class="hero__btn"
+            >Hire Me</a
+          >
+        </div>
+
+        <div class="hero__image">
+          <img src="./lapchef.png" alt="Hero image" />
+          
+        </div>
+      </main>
+    </section>
+
+    <footer class="footer">
+      <ul class="list footer__list">
+        <li class="list__item">
+          <a
+            href="https://www.linkedin.com/in/paulo-mateljan-36463a224/"
+            class="list__link"
+            >Skills</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="https://www.linkedin.com/in/paulo-mateljan-36463a224/"
+            class="list__link"
+            >Education</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="https://www.linkedin.com/in/paulo-mateljan-36463a224/"
+            class="list__link"
+            >Certificates</a
+          >
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
